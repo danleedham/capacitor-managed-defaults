@@ -1,8 +1,8 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
-<h3 align="center">Example</h3>
-<p align="center"><strong><code>@capacitor-community/example</code></strong></p>
+<h3 align="center">Managed User Defaults</h3>
+<p align="center"><strong><code>@capacitor-community/managed-defaults</code></strong></p>
 <p align="center">
-  Capacitor community plugin for something awesome.
+  Provides iOS functionality for getting individual keys within the com.apple.configuration.managed Dictionary, as passed to an app by an MDM.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 | Maintainer | GitHub | Social |
 | -----------| -------| -------|
-| Ionitron (example) | [Ionitron](https://github.com/ionitron) | [@ionitron](https://twitter.com/ionitron) |
+| danleedham | [danleedham](https://github.com/danleedham) | [@danleedham](https://twitter.com/danleedham) |
 
 ## Installation
 
