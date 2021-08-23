@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorManagedDefaults.podspec"
+    "ManagedDefaults.podspec"
   ],
   "author": "Dan Leedham",
   "license": "MIT",
