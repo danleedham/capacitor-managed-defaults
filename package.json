@@ -1,6 +1,6 @@
 {
   "name": "managed-defaults",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Provides iOS functionality for getting individual keys within the com.apple.configuration.managed Dictionary, as passed to an app by an MDM.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
