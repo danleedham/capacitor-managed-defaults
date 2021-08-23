@@ -28,7 +28,7 @@ None
 
 ## Usage
 
-```
+```js
 import { ManagedStorage } from 'managed-defaults';
 
 async storageGetManagedObject(key: string) {
