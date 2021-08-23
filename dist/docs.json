@@ -7,22 +7,22 @@
     "methods": [
       {
         "name": "getManaged",
-        "signature": "(options: { value: string; }) => Promise<{ value: string; }>",
+        "signature": "(options: { key: string; }) => Promise<{ key: string; }>",
         "parameters": [
           {
             "name": "options",
             "docs": "",
-            "type": "{ value: string; }"
+            "type": "{ key: string; }"
           }
         ],
-        "returns": "Promise<{ value: string; }>",
+        "returns": "Promise<{ key: string; }>",
         "tags": [
           {
             "name": "since",
             "text": "0.0.1"
           }
         ],
-        "docs": "Set the value in Managed User Defaults for a given key.",
+        "docs": "Get the value of a Managed User Default for a given key.",
         "complexTypes": [],
         "slug": "getmanaged"
       }

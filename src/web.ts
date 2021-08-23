@@ -5,7 +5,7 @@ import type { ManagedStoragePlugin } from './definitions';
 export class ManagedStorageWeb
   extends WebPlugin
   implements ManagedStoragePlugin {
-  async getManaged(options: { value: string }): Promise<{ value: string }> {
+  async getManaged(options: { key : string }): Promise<{ key : string }> {
     console.log('ECHO', options);
     return options;
   }
