@@ -4,5 +4,5 @@ export interface ManagedStoragePlugin {
    *
    * @since 0.0.1
    */
-  getManaged(options: { key: string }): Promise<{ key: string }>;
+  getManaged(options: { key: string }): Promise<{ value: string }>;
 }
