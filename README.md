@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
-  <a href="https://github.com/danleedham/capacitor-managed-defaults/actions?query=workflow%3A%22CI%22"><img src="https://img.shields.io/github/workflow/status/danleedham/capacitor-managed-defaults/CI?style=flat-square" /></a>
+  <a href="https://github.com/danleedham/capacitor-managed-defaults/actions?query=workflow%3A%22Build%20Plugin%22"><img src="https://img.shields.io/github/workflow/status/danleedham/capacitor-managed-defaults/Build%20Plugin?style=flat-square" /></a>
 </p>
 
 ## Maintainers
