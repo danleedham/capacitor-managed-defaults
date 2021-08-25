@@ -8,9 +8,16 @@
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2021" />
   <a href="https://github.com/danleedham/capacitor-managed-defaults/actions?query=workflow%3A%22Build%20Plugin%22"><img src="https://img.shields.io/github/workflow/status/danleedham/capacitor-managed-defaults/Build%20Plugin" /></a>
+  </p>
+<p align="center">
   <img src="https://img.shields.io/github/package-json/v/danleedham/capacitor-managed-defaults" />
   <img src="https://img.shields.io/github/v/release/danleedham/capacitor-managed-defaults" />
 </p>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/danleedham/capacitor-managed-defaults" />
+    <img src="https://img.shields.io/github/languages/top/danleedham/capacitor-managed-defaults" />
+</p>
+                                                                                         
 
 ## Maintainers
 
