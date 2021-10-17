@@ -4,6 +4,7 @@ export declare class ManagedStorageWeb extends WebPlugin implements ManagedStora
     getManaged(options: {
         key: string;
     }): Promise<{
-        value: string;
+        value: string | null;
     }>;
+    private get impl();
 }

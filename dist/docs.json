@@ -7,7 +7,7 @@
     "methods": [
       {
         "name": "getManaged",
-        "signature": "(options: { key: string; }) => Promise<{ value: string; }>",
+        "signature": "(options: { key: string; }) => Promise<{ value: string | null; }>",
         "parameters": [
           {
             "name": "options",
@@ -15,7 +15,7 @@
             "type": "{ key: string; }"
           }
         ],
-        "returns": "Promise<{ value: string; }>",
+        "returns": "Promise<{ value: string | null; }>",
         "tags": [
           {
             "name": "since",

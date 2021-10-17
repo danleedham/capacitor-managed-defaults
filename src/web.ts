@@ -5,8 +5,13 @@ import type { ManagedStoragePlugin } from './definitions';
 export class ManagedStorageWeb
   extends WebPlugin
   implements ManagedStoragePlugin {
-  async getManaged(options: { key: string }): Promise<{ value: string }> {
-    console.log('No Web Implementation, Sorry', options);
-    return { value: options.key };
+  public async getManaged(options: {
+    key: string;
+  }): Promise<{ value: string | null }> {
+    const value = this.impl.getItem(options.key);
+    return { value };
+  }
+  private get impl(): Storage {
+    return window.localStorage;
   }
 }

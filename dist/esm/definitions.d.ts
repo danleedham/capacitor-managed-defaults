@@ -7,6 +7,6 @@ export interface ManagedStoragePlugin {
     getManaged(options: {
         key: string;
     }): Promise<{
-        value: string;
+        value: string | null;
     }>;
 }
